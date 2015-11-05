@@ -57,6 +57,83 @@ public class ContactUsScreen {
     @FindBy(how = How.XPATH, using = "//span[@class='help-block' and @for='email']")
     private static WebElement emptyEmailError;
 
+    @FindBy(how = How.XPATH, using = "//span[@class='help-block' and @for='departments']")
+    private static WebElement emptyDepartmentError;
+
+    @FindBy(how = How.XPATH, using = "//span[@class='help-block' and @for='name']")
+    private static WebElement emptyNameError;
+
+    @FindBy(how = How.XPATH, using = "//span[@class='help-block' and @for='message']")
+    private static WebElement emptyQueryError;
+
+    @FindBy(how = How.XPATH, using = "//span[@class='help-block' and @for='formPlayAnswer']")
+    private static WebElement emptyFormOfPlayError;
+
+    @FindBy(how = How.XPATH, using = "//div[@id='hidden-form']//div[@id='messageDiv']//input[@id='submit']")
+    private static WebElement submitQueryExpanded;
+
+    @FindBy(how = How.XPATH, using = "//span[@class='help-block' and @for='format']")
+    private static WebElement emptyFormatError;
+
+    @FindBy(how = How.XPATH, using = "//span[@class='help-block' and @for='affirmativeOptions']")
+    private static WebElement competitionClosedNotSelectedError;
+
+    public static WebElement getCompetitionClosedNotSelectedError() {
+        return competitionClosedNotSelectedError;
+    }
+
+    public static void setCompetitionClosedNotSelectedError(WebElement competitionClosedNotSelectedError) {
+        ContactUsScreen.competitionClosedNotSelectedError = competitionClosedNotSelectedError;
+    }
+
+    public static WebElement getEmptyFormatError() {
+        return emptyFormatError;
+    }
+
+    public static void setEmptyFormatError(WebElement emptyFormatError) {
+        ContactUsScreen.emptyFormatError = emptyFormatError;
+    }
+
+    public static WebElement getSubmitQueryExpanded() {
+        return submitQueryExpanded;
+    }
+
+    public static void setSubmitQueryExpanded(WebElement submitQueryExpanded) {
+        ContactUsScreen.submitQueryExpanded = submitQueryExpanded;
+    }
+
+    public static WebElement getEmptyFormOfPlayError() {
+        return emptyFormOfPlayError;
+    }
+
+    public static void setEmptyFormOfPlayError(WebElement emptyFormOfPlayError) {
+        ContactUsScreen.emptyFormOfPlayError = emptyFormOfPlayError;
+    }
+
+    public static WebElement getEmptyQueryError() {
+        return emptyQueryError;
+    }
+
+    public static void setEmptyQueryError(WebElement emptyQueryError) {
+        ContactUsScreen.emptyQueryError = emptyQueryError;
+    }
+
+    public static WebElement getEmptyNameError() {
+        return emptyNameError;
+    }
+
+    public static void setEmptyNameError(WebElement emptyNameError) {
+        ContactUsScreen.emptyNameError = emptyNameError;
+    }
+
+    public static WebElement getEmptyDepartmentError() {
+        return emptyDepartmentError;
+    }
+
+    public static void setEmptyDepartmentError(WebElement emptyDepartmentError) {
+        ContactUsScreen.emptyDepartmentError = emptyDepartmentError;
+    }
+
     public static WebElement getEmptyEmailError() {
         return emptyEmailError;
     }
