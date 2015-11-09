@@ -24,7 +24,7 @@ public class MainPageScreen {
     @FindBy(how = How.XPATH, using = "//a[@class='brand sprite-global sprite-randa-header']")
     private static WebElement rAndALogo;
 
-    @FindBy(how = How.XPATH, using = "html/body/div[1]/footer/section[5]/div[1]/ul/li[1]/a")
+    @FindBy(how = How.XPATH, using = "//ul[@class='footer-misc-nav clearfix']//a[@title='Contact Us']")
     private static WebElement contactUsLink;
 
 

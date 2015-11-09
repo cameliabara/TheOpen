@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by oabara on 10/29/2015.
  */
-public class FirstTests {
+public class ContactUsTests {
 
     public WebDriver driver = new FirefoxDriver();
     MainPageScreen mainPageScreen = PageFactory.initElements(driver, MainPageScreen.class);

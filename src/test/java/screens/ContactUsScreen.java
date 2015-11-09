@@ -9,7 +9,7 @@ import org.openqa.selenium.support.How;
  */
 public class ContactUsScreen {
 
-    @FindBy(how = How.XPATH, using = "html/body/div[1]/main/section[2]/div[1]/h1")
+    @FindBy(how = How.XPATH, using = "//div[@class='col-xs-12 col-md-10 col-lg-6 col-md-offset-1']/h1")
     private static WebElement contactUsText;
 
     @FindBy(how = How.ID, using = "name")
